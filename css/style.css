@@ -1,0 +1,50 @@
+body {
+    background-color: #17141d;
+    margin: 0;
+    padding: 0;
+}
+
+.gfg-nie-img {
+    margin: 0 1%;
+    border-radius: 50%; 
+    width: 5%;
+}
+
+.heading-on-nav {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #06A761;
+    padding: 5px 10px;
+    height: 3rem;
+    border-radius: 5px;
+    vertical-align: middle;
+    
+}
+
+ /* Centering the nav Heading Vertically & Horizontally in the div */
+.center {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.center:hover {
+    color: #18361e;
+}
+
+.nav-item {
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #0c2b17;
+}
