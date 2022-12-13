@@ -1,44 +1,13 @@
 body {
     background-color: #17141d;
-    margin: 0;
-    padding: 0;
-}
-
-.gfg-nie-img {
-    margin: 0 1%;
-    border-radius: 50%; 
-    width: 5%;
-}
-
-.heading-on-nav {
-    display: inline-block;
-    margin: 0 0 0 20px;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #06A761;
-    padding: 5px 10px;
-    height: 3rem;
-    border-radius: 5px;
-    vertical-align: middle;
-    
-}
-
- /* Centering the nav Heading Vertically & Horizontally in the div */
-.center {
-    color: #fff;
     text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.center:hover {
-    color: #18361e;
+    box-sizing: border-box;
 }
 
 .nav-item {
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    font-weight: 650;
     margin-left: 10%;
     text-transform: uppercase;
     font-weight: bold;
@@ -47,4 +16,27 @@ body {
 
 .nav-link:hover {
     color: #0c2b17;
+}
+
+.gfg-nie-img {
+    margin: 0 1%;
+    border-radius: 50%; 
+    width: 5%;
+}
+
+/* NIE GFG Student Chapter in the Nav Bar */
+.center-heading {
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    padding: 5px 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #06A761;
+    text-align: center;
+}
+
+.center-heading:hover {
+    color: #18361e;
 }
