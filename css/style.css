@@ -1,7 +1,7 @@
 body {
     background-color: #17141d;
-    text-align: center;
     box-sizing: border-box;
+    color: white;
 }
 
 .nav-item {
