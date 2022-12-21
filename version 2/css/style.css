@@ -18,8 +18,15 @@ body {
 
 .nav-link:hover {
     color: #0c2b17;
-}
-
+  }
+  
+  .nav-link {
+    color: #06A761;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: bold;
+  
+  }
+  
 .gfg-nie-img {
     margin: 0 1%;
     border-radius: 50%;
@@ -42,6 +49,7 @@ body {
 .center-heading:hover {
     color: #18361e;
 }
+
 
 /* intro section */
 
@@ -81,13 +89,13 @@ body {
 	 font-weight: 400;
 	 text-transform: uppercase;
 }
- #intro#intro
+ #intro h5 {
 	 line-height: 150%;
 	 font-family: Roboto, sans-serif;
 	 font-size: 0.9375em;
 	 color: #999;
 }
- #intro l
+ #intro l {
 	 list-style-type: none;
 }
  #intro a {
@@ -98,21 +106,21 @@ body {
   font-size:45px;margin-bottom:3rem;
 }
 #intro #top-banner-2 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;
+  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
 }
 #intro #top-banner-3 h1{
   color:lightgreen;
   font-size:45px;margin-bottom:3rem;
 }
 #intro #top-banner-3 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;
+  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
 }
 #intro #top-banner-4 h1{
   color:lightgreen;
   font-size:45px;margin-bottom:3rem;
 }
 #intro #top-banner-4 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;
+  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
 }
 @media only screen and (max-width: 600px) {
   #intro #top-banner-2 h1{
@@ -120,21 +128,21 @@ body {
     font-size:25px;margin-bottom:2rem;margin-top:1rem;
   }
   #intro #top-banner-2 h2{
-    width:80%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;font-size:15px;
+    width:80%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;font-size:15px;
   }
   #intro #top-banner-3 h1{
     color:lightgreen;
     font-size:25px;margin-bottom:2rem;margin-top:1rem;
   }
   #intro #top-banner-3 h2{
-    width:80%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;font-size:15px;
+    width:80%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;font-size:15px;
   }
   #intro #top-banner-4 h1{
     color:lightgreen;
     font-size:25px;margin-bottom:2rem;margin-top:1rem;
   }
   #intro #top-banner-4 h2{
-    width:90%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.5cm;font-size:15px;
+    width:90%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;font-size:15px;
   }
 }
 
