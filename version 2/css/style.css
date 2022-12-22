@@ -31,11 +31,17 @@ body {
     margin: 0 1%;
     border-radius: 50%;
     width: 5%;
+    cursor: pointer; 
+    opacity: 0.8;
+}
+
+.gfg-nie-img:hover {
+    opacity: 1;
 }
 
 /* NIE GFG Student Chapter in the Nav Bar */
 .center-heading {
-    display: inline-block;
+    display: inline;
     margin-left: 5%;
     margin-bottom: 1%;
     padding: 5px 10px;
@@ -757,17 +763,27 @@ body {
     border-radius: 3px;
     background-color: white;
 }
-.mhn-slide .mhn-item img {
-    display: none;
+/* .mhn-slide .mhn-item img {
+  height: 200px;
+} */
+
+.mhn-item {
+    opacity: 0.7;
 }
+
+.mhn-item:hover {
+    opacity: 1;
+}
+
+
 .mhn-slide .mhn-img {
+    display: none;
     min-height: 200px;
     overflow: hidden;
     height: 100%;
     width: 100%;
     color: white;
-    background: url(data:image/png;
-    base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=) #eee no-repeat center/cover;
+    /* background: url('') #eee no-repeat center/cover; */
     position: relative;
 }
 .mhn-slide .mhn-text {
