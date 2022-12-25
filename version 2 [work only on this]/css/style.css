@@ -39,22 +39,82 @@ body {
     opacity: 1;
 }
 
-/* NIE GFG Student Chapter in the Nav Bar */
-.center-heading {
+
+/* For Device with width < 600px */
+@media (max-width: 600px) {
+  .nav-item {
+      font-size: 1.1rem;
+  }
+  .gfg-nie-img {
+      width: 10%;
+  }
+  .center-heading {
     display: inline;
-    margin-left: 5%;
-    margin-bottom: 1%;
-    padding: 5px 10px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bold;
-    font-size: 2.5vw;
-    color: #06A761;
-    text-align: center;
+      margin-left: 5%;
+      margin-bottom: 1%;
+      padding: 5px 10px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: bold;
+      color: #06A761;
+      text-align: center;
+      font-size: 4vw;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .hamburger {
+    margin-right: 0.8em;
+  }
+  
 }
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .nav-item {
+      font-size: 1.2rem;
+  }
+  .gfg-nie-img {
+      width: 8%;
+  }
+  .center-heading {
+    display: inline;
+      margin-left: 5%;
+      margin-bottom: 1%;
+      padding: 5px 10px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: bold;
+      color: #06A761;
+      text-align: center;
+      font-size: 3vw;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .hamburger {
+    margin-right: 0.8em;
+  }
+
+}
+
+/* For Device with width > 992px */
+/* NIE GFG Student Chapter in the Nav Bar */
+@media (min-width: 992px) {
+.center-heading {
+  display: inline;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  padding: 5px 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: #06A761;
+  text-align: center;
+}
+}
+
 
 .center-heading:hover {
     color: #18361e;
 }
+
+
 
 /* Social Buttons */
 
@@ -120,27 +180,30 @@ body {
  #intro a {
 	 text-decoration: none;
 }
-#intro #top-banner-2 h1{
-  color:lightgreen;
-  font-size:45px;margin-bottom:3rem;
-}
-#intro #top-banner-2 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
-}
-#intro #top-banner-3 h1{
-  color:lightgreen;
-  font-size:45px;margin-bottom:3rem;
-}
-#intro #top-banner-3 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
-}
-#intro #top-banner-4 h1{
-  color:lightgreen;
-  font-size:45px;margin-bottom:3rem;
-}
-#intro #top-banner-4 h2{
-  width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
-}
+
+  #intro #top-banner-2 h1{
+    color:lightgreen;
+    font-size:45px;margin-bottom:3rem;
+  }
+  #intro #top-banner-2 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
+  }
+  #intro #top-banner-3 h1{
+    color:lightgreen;
+    font-size:45px;margin-bottom:3rem;
+  }
+  #intro #top-banner-3 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
+  }
+  #intro #top-banner-4 h1{
+    color:lightgreen;
+    font-size:45px;margin-bottom:3rem;
+  }
+  #intro #top-banner-4 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
+  }
+
+
 @media only screen and (max-width: 600px) {
   #intro #top-banner-2 h1{
     color:lightgreen;
@@ -162,6 +225,30 @@ body {
   }
   #intro #top-banner-4 h2{
     width:90%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;font-size:15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  #intro #top-banner-2 h1{
+    color:lightgreen;
+    font-size:30px;margin-bottom:3rem;
+  }
+  #intro #top-banner-2 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
+  }
+  #intro #top-banner-3 h1{
+    color:lightgreen;
+    font-size:30px;margin-bottom:3rem;
+  }
+  #intro #top-banner-3 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
+  }
+  #intro #top-banner-4 h1{
+    color:lightgreen;
+    font-size:30px;margin-bottom:3rem;
+  }
+  #intro #top-banner-4 h2{
+    width:70%;text-align:center;margin:auto;font-family: 'Montserrat Alternates', sans-serif; word-spacing: 0.1cm;
   }
 }
 
