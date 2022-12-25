@@ -1,3 +1,19 @@
+$(document).ready(function() {
+    
+	var a = 0;
+	var set1 = setInterval(function() {
+	  $(".preload h1").html(a + '%');
+	  $(".preload hr").css("width", a + '%');
+	  a++;
+	  
+	  if (a == 101) {
+		clearInterval(set1);
+		$('.preload').slideUp();
+		// $('.preload').addClass('done');
+	  }
+	}, 40);  
+  });
+
 // intro section
 ///// Section-1 CSS-Slider /////
   // Auto Switching Images for CSS-Slider
