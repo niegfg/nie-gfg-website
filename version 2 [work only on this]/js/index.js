@@ -11,7 +11,7 @@ $(document).ready(function() {
 		$('.preload').slideUp();
 		// $('.preload').addClass('done');
 	  }
-	}, 40);  
+	}, 1);  
   });
 
 // intro section
