@@ -74,7 +74,7 @@ body {
     font-family: "Montserrat";
     font-size: 1.3rem;
     font-weight: 650;
-    margin-left: 10%;
+    margin-left: 5%;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -103,6 +103,41 @@ body {
     opacity: 1;
 }
 
+/* .navbar {
+  display: flex;
+  align-items: center;
+} */
+
+.navbar-expand-lg .navbar-nav {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .navbar-expand-lg .navbar-nav {
+    flex-wrap: wrap;
+  }
+  .center-heading {
+    display: inline;
+    width: 70%;
+    line-height: 2em;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      padding: 10px 10px;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: bold;
+      color: #06A761;
+      text-align: center;
+      font-size: 5vw;
+      vertical-align: middle;
+      text-align: center;
+  }
+  .hamburger {
+    /* width: 50%; */
+    /* display: flex; */
+    margin-right: 0.3em;
+  }
+  
+}
 
 /* For Device with width < 600px */
 @media (max-width: 600px) {
@@ -126,7 +161,7 @@ body {
       text-align: center;
   }
   .hamburger {
-    margin-right: 0.8em;
+    margin-right: 0.5em;
   }
   
 }
@@ -390,7 +425,7 @@ body {
 	 border: none;
 }
  #section-1 {
-	 height: 38em;
+  height: 38em;
 	 color: #fff;
 	 background-color: #222;
 }
@@ -500,6 +535,7 @@ body {
 	 height: 3.1em;
 	 overflow: hidden;
 	 margin: 0 1em;
+   /* padding: 1em 1em; */
 	 padding-top: 1em;
 	 text-align: left;
 	 text-transform: uppercase;
