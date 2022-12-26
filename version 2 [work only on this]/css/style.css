@@ -108,8 +108,15 @@ body {
   align-items: center;
 } */
 
-.navbar-expand-lg .navbar-nav {
-  flex-wrap: wrap;
+@media (min-width: 992px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-wrap: wrap;
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -528,13 +535,15 @@ body {
 	 font-family: Montserrat, sans-serif;
 	 color: #fff;
 }
+
+
  #section-1 .content-slider nav .controls label {
 	 position: relative;
 	 display: inline-block;
 	 width: 20%;
 	 height: 3.1em;
 	 overflow: hidden;
-	 margin: 0 1em;
+	 margin: 1em 1em;
    /* padding: 1em 1em; */
 	 padding-top: 1em;
 	 text-align: left;
