@@ -1378,6 +1378,12 @@ body li {
   transition: 0.5s;
 }
 
+@media (max-width: 500px) {
+  .content {
+    opacity: 1 !important;
+  }
+}
+
 .card:hover .content {
   opacity: 1;
   transform: translateY(-2rem);
@@ -1478,6 +1484,13 @@ h4 {
 .grid-container div:hover img {
   filter: grayscale(0);
 }
+
+@media (max-width: 500px) {
+  .grid-container div img {
+    filter: grayscale(0) !important;
+  }
+}
+
 .grid-container div:hover {
   border-color: lightgreen;
 }
